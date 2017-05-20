@@ -1,58 +1,51 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title></title>
 
-    <script src="jquery-3.2.0.min.js" charset="utf-8"></script>
-    <script src="main.js" charset="utf-8"></script>
-
     <style media="screen">
 
- 
 
     h1{
       font-family: arial;
       color:red;
-      font-size: 100px;
-      margin-top: -10px;
-    }
-
-    .rollover{
-      color:red;
+      font-size: 40px;
     }
 
     .col {
   width: 50%;
-  height:100vh;
+  height:90vh;
   position:fixed;
 }
 
 .left {
   left:0;
-  top:15vh;
+  top:10vh;
   overflow: scroll;
 
 }
 
 .right {
   left:50%;
-  top:0vh;
+  top:10vh;
   background-color: red;
-
+  overflow: scroll;
 }
 
 .content {
   padding: 30px;
   width: 520px;
-  font-family: arial;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: courier;
+  color:red;
   margin-left: 50px;
 }
 
 .header {
   font-size: 30px;
-
+  font-family: courier;
   text-align: center;
 }
 
@@ -60,66 +53,6 @@ a{
   text-decoration: none;
   color: blue;
 
-}
-
-.rollover{
-  color: red;
-
-}
-
-.rollover:hover{
-  color: blue;
-}
-.blur{
-  position:fixed;
-  opacity:0;
-  filter: blur();
-  pointer-events:none;
-  transition: all 2s;
-}
-
-.blur.showme{
-  opacity: 1;
-  filter: blur(0px);
-  transition: all 2s;
-}
-
-.rotate{
-  position:fixed;
-  visibility: hidden;
-  transform: scaleX(0)rotate(0deg);
-  pointer-events:none;
-  transition: all 2s;
-}
-
-.rotate.showme{
-  visibility: visible;
-  transform: scaleX(1)rotate(360deg);
-  transition: all 2s;
-}
-
-.chan__image{
-  top:50px;
-  left:740px;
-  width: 350px;
-  height:300px;
-}
-
-.political__image{
-  top:90px;
-  left:900px;
-}
-
-.pepper__image{
-  top:310px;
-  left:930px;
-  width: 550px;
-  height:400px;
-}
-
-.american__image{
-  top:200px;
-  left:800px;
 }
 
 
@@ -142,7 +75,7 @@ a{
     <br>
     <br>
 
-    Generally, websites like <span class="rollover chan">4chan</span> have held a fairly benevolent role in popular culture. We see them as a kind of factory for bizarre trends, photoshopped images, and various other in-jokes unique to the vernacular of the web. But most of the memes that arise from this website act on or adapt previously held tropes and stereotypes within other areas of popular culture. However, as our cultural dialogue intermingles with political discourse and activism, so do our cultural products. <span class="rollover political">Political activism</span> is often relegated to a specific subset of people as a means of marginalizing dissent and keeping a movement from becoming relatable to the general public. But political discourse in the meme pool allows dissent to go viral, making it accessible to a broad audience. The mere existence of this kind of structure is an encouraging circumstance. The transmutations that happen within these spaces  lack any substantial form of hierarchy. Moderation is not imposed, it happens in generations as content is subject only to the scrutiny of populism.
+    Generally, websites like <a href="#Funny"><strong>4chan</strong></a> have held a fairly benevolent role in popular culture. We see them as a kind of factory for bizarre trends, photoshopped images, and various other in-jokes unique to the vernacular of the web. But most of the memes that arise from this website act on or adapt previously held tropes and stereotypes within other areas of popular culture. However, as our cultural dialogue intermingles with political discourse and activism, so do our cultural products. <a href="#political"><strong>Political activism</strong></a> is often relegated to a specific subset of people as a means of marginalizing dissent and keeping a movement from becoming relatable to the general public. But political discourse in the meme pool allows dissent to go viral, making it accessible to a broad audience. The mere existence of this kind of structure is an encouraging circumstance. The transmutations that happen within these spaces  lack any substantial form of hierarchy. Moderation is not imposed, it happens in generations as content is subject only to the scrutiny of populism.
     <br>
     <br>
 
@@ -152,7 +85,7 @@ a{
     <br>
 
 
-    Figure A <span class="rollover pepper">“Pepper Spray Cop”</span>
+    Figure A <a href="#Pepper"><strong>“Pepper Spray Cop”</strong></a>
     <br>
     <br>
 
@@ -161,7 +94,7 @@ a{
     <br>
 
 
-    Figure B <span class="rollover american">“Obese American”</span>
+    Figure B <a href="#obesity-meme"><strong>“Obese American”</strong></a>
     <br>
     <br>
     <br>
@@ -172,19 +105,14 @@ a{
 
 <div class="col right">
 
-<!--<a name="obesity-meme"><img src="./obesity-meme.jpg" alt="" style="margin-left:50px;margin-top:50px;"></a>
+<a name="obesity-meme"><img src="./obesity-meme.jpg" alt="" style="margin-left:50px;margin-top:50px;"></a>
 <a name="political"><img src="./political.png" alt="" style="margin-left:50px;margin-top:50px;"></a>
 <a name="Pepper"><img src="./pepper.jpg" alt="" style="margin-left:50px;margin-top:50px;"></a>
-<a name="Funny"><img src="./Funny.jpg" alt="" style="padding-bottom:20px;margin-left:50px;margin-top:50px;"></a>-->
+<a name="Funny"><img src="./Funny.jpg" alt="" style="padding-bottom:20px;margin-left:50px;margin-top:50px;"></a>
 
 
 
 </div>
-
-<img class="rotate chan__image"src="funny.jpg" alt="">
-<img class="blur political__image"src="political.png" alt="">
-<img class="blur pepper__image"src="pepper.jpg" alt="">
-<img class="rotate american__image"src="obesity-meme.jpg" alt="">
 
 
 

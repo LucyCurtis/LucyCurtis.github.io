@@ -8,7 +8,7 @@ $('.chan').mouseenter(function() {
 });
 
 
-
+ 
 $('.political').mouseenter(function() {
   $('.political__image').addClass('showme');
 });
