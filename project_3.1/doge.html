@@ -5,7 +5,7 @@
     <title></title>
 
     <script src="jquery-3.2.0.min.js" charset="utf-8"></script>
-    <script src="main.js" charset="utf-8"></script>
+    <script src="doge.js" charset="utf-8"></script>
 
     <style media="screen">
 
@@ -37,98 +37,149 @@
       text-decoration: line-through;
     }
 
-t-decoration: none;
+  /*    .rollover{
+      color:red;
+    }
+
+    .col {
+  width: 50%;
+  height:100vh;
+  position:fixed;
+  }
+
+  .left {
+  left:0;
+  top:15vh;
+  overflow: scroll;
+  color: hotpink;
+
+  }
+
+  .right {
+  left:50%;
+  top:15vh;
+
+  }
+
+  .content {
+  padding: 30px;
+  width: 520px;
+  font-family: arial;
+  font-size: 30px;
+  margin-left: 50px;
+  }
+
+  .header {
+  font-size: 30px;
+
+  text-align: center;
+  }
+
+  a{
+  text-decoration: none;
   color: blue;
 
-}*/
+  }*/
 
-.rollover{
+  .rollover{
   color: aqua;
 
-}
+  }
 
-.left {
+  .left {
   margin:auto;
   width: 55%;
   color: hotpink;
   font-family: arial;
   font-size: 30px;
-}
+  }
 
-.rollover:hover{
+  .rollover:hover{
   text-decoration: line-through;
-}
-.blur{
+  }
+  .blur{
   position:fixed;
   opacity:0;
   filter: blur();
   pointer-events:none;
   transition: all 2s;
-}
+  }
 
-.blur.showme{
+  .blur.showme{
   opacity: 1;
   filter: blur(0px);
   transition: all 2s;
-}
+  }
 
-.rotate{
+  .rotate{
   position:fixed;
   visibility: hidden;
   transform: scaleX(0)rotate(0deg);
   pointer-events:none;
   transition: all 2s;
-}
+  }
 
-.rotate.showme{
+  .rotate.showme{
   visibility: visible;
   transform: scaleX(1)rotate(360deg);
   transition: all 2s;
-}
+  }
 
-.chan__image{
+  .shiba__image{
   top:50px;
   left:740px;
   width: 350px;
   height:300px;
-}
+  }
 
-.political__image{
+  .citrus__image{
+  top:50px;
+  left:740px;
+  width: 350px;
+  height:300px;
+  }
+
+  .most__image{
+  top:50px;
+  left:740px;
+  width: 350px;
+  height:300px;
+  }
+
+
+  .such__image{
   top:70px;
   left:20px;
-}
+  }
 
-.pepper__image{
+  .wow__image{
   top:310px;
   left:600px;
   width: 550px;
   height:400px;
-}
+  }
 
-.american__image{
+  .doge__image{
   top:150px;
   left:700px;
-}
+  }
 
-.doge{
-  color: aqua;
-  top:150px;
-  left:700px;
-}
-
-.flash {
+  .flash {
    animation-name: flash;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
-}
+  }
 
-@keyframes flash {
+  @keyframes flash {
     from {color: hotpink;}
     to {color: aqua;}
-}
+  }
+
+
+
 
 blockquote{
   font-size: 25px;
@@ -163,14 +214,11 @@ blockquote{
 
 
 <p>
-    The "doge" meme has been around for a few years now, but it peaked in 2013, because doge is actually funny. If you were online at all over the last six months, you probably saw the picture of a Shiba Inu dog, labeled with non-sensical phrases in rainbowed Comic Sans. "Wow," doge says. "Such funny. So hilarious." The Internet, here represented by Imgur and Reddit, loves doge. Bloggers love doge, and bloggers hate most memes. Linguists love doge. Very few people do not love doge. It was this year's best meme by a mile, and the competition was not close.
+    The "doge" meme has been around for a few years now, but it peaked in 2013, because doge is actually funny. If you were online at all over the last six months, you probably saw the picture of a Shiba Inu dog, labeled with non-sensical phrases in rainbowed Comic Sans. <span class="rollover wow">"Wow,"</span> doge says. <span class="rollover such">"Such funny. So hilarious."</span> The Internet, here represented by Imgur and Reddit, loves doge. Bloggers love doge, and bloggers hate most memes. Linguists love doge. Very few people do not love doge. It was this year's best meme by a mile, and the competition was not close.
     <br>
     <br>
 
-But the dog that most often represents the doge meme nearly died a few years ago, according to The Verge's Kyle Chayka, who traced the origin of the meme. The photo of Kabosu, the adopted eight-year-old Shiba Inu, that is used most often by doge enthusiasts originated here, from 2010, on the owner's blog. Kabosu, and owner Atsuko Sato, are somewhat famous bloggers in Japan, where they live. Sato adopted Kabosu four years ago, in 2008, when the dog was facing a ghastly fate in an animal shelter:
-    <br>
-    <br>
-  But the dog that most often represents the doge meme nearly died a few years ago, according to The Verge's Kyle Chayka, who traced the origin of the meme. The photo of Kabosu, the adopted eight-year-old Shiba Inu, that is used most often by doge enthusiasts originated here, from 2010, on the owner's blog. Kabosu, and owner Atsuko Sato, are somewhat famous bloggers in Japan, where they live. Sato adopted Kabosu four years ago, in 2008, when the dog was facing a ghastly fate in an animal shelter:
+But the dog that most often represents the doge meme nearly died a few years ago, according to The Verge's Kyle Chayka, who traced the origin of the meme. The photo of Kabosu, the adopted eight-year-old <span class="rollover shiba">Shiba Inu,</span> that is used most often by doge enthusiasts originated here, from 2010, on the owner's blog. Kabosu, and owner Atsuko Sato, are somewhat famous bloggers in Japan, where they live. Sato adopted Kabosu four years ago, in 2008, when the dog was facing a ghastly fate in an animal shelter:
     <br>
     <br>
 
@@ -180,31 +228,23 @@ But the dog that most often represents the doge meme nearly died a few years ago
   <br>
   <br>
 
-  A volunteer at the shelter gave the dog her name, a type of Japanese citrus. “Her face is very round just like kabosu [fruit],” Sato said. “I thought the name was perfect, so I kept it.”</i>
+  A volunteer at the shelter gave the dog her name, a type of <span class="rollover citrus">Japanese citrus.</span> “Her face is very round just like kabosu [fruit],” Sato said. “I thought the name was perfect, so I kept it.”</i>
 </blockquote>
 
 <br>
 
 
-    So, the emotionless Internet meme is actually the most Internet thing ever, a triumphant, heartwarming, nearly unbelievable story about overcoming all odds to restore your faith in humanity. </p>
+    So, the emotionless Internet meme is actually the <span class="rollover most">most Internet thing ever,</span> a triumphant, heartwarming, nearly unbelievable story about overcoming all odds to restore your faith in humanity. </p>
   </div>
 </div>
 
-<!--<div class="col right">
-
-<a name="obesity-meme"><img src="./obesity-meme.jpg" alt="" style="margin-left:50px;margin-top:50px;"></a>
-<a name="political"><img src="./political.png" alt="" style="margin-left:50px;margin-top:50px;"></a>
-<a name="Pepper"><img src="./pepper.jpg" alt="" style="margin-left:50px;margin-top:50px;"></a>
-<a name="Funny"><img src="./Funny.jpg" alt="" style="padding-bottom:20px;margin-left:50px;margin-top:50px;"></a
-
-
-
-</div>>-->
 
 <img class="rotate doge__image"src="doge.jpg" alt="">
-
-
-
+<img class="blur wow__image"src="doge.jpg" alt="">
+<img class="rotate such__image"src="doge.jpg" alt="">
+<img class="blur shiba__image"src="doge.jpg" alt="">
+<img class="rotate citrus__image"src="doge.jpg" alt="">
+<img class="blur most__image"src="doge.jpg" alt="">
 
   </body>
 </html>
