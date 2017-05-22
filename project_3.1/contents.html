@@ -4,6 +4,9 @@
 	<head>
 		<title>Lucy Curtis</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<script src="jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/contents.js" charset="utf-8"></script>
 		<style media="screen">
 
 		body{
@@ -76,6 +79,57 @@ span{
   to{opacity: .0;}
 }
 
+.rollover{
+color: aqua;
+
+}
+
+.left {
+margin:auto;
+width: 55%;
+color: hotpink;
+font-family: arial;
+font-size: 30px;
+}
+
+.rollover:hover{
+text-decoration: line-through;
+}
+.blur{
+position:fixed;
+opacity:0;
+filter: blur();
+pointer-events:none;
+transition: all 2s;
+}
+
+.blur.showme{
+opacity: 1;
+filter: blur(0px);
+transition: all 2s;
+}
+
+.rotate{
+position:fixed;
+visibility: hidden;
+transform: scaleX(0)rotate(0deg);
+pointer-events:none;
+transition: all 2s;
+}
+
+.rotate.showme{
+visibility: visible;
+transform: scaleX(1)rotate(360deg);
+transition: all 2s;
+}
+
+.doge__image{
+top:50px;
+left:740px;
+width: 350px;
+height:300px;
+}
+
 .title1{
 	margin-left: 1300px;
 
@@ -107,7 +161,7 @@ span{
 
 
 		<div class="nav">
-			<strong><a href="home.html">HOME</a>&nbsp;&nbsp;<a href="trial2.html">ONE</a> &nbsp;&nbsp; <a href="doge.html">TWO</a> &nbsp;&nbsp; <a href="success.html">THREE</a> &nbsp;&nbsp; <a href="#">FOUR</a></strong>
+			<strong><a href="home.html">HOME</a>&nbsp;&nbsp;<a href="trial2.html">ONE</a> &nbsp;&nbsp; <a href="doge.html">TWO</a> &nbsp;&nbsp; <a href="success.html">THREE</a> &nbsp;&nbsp; <a href="arthur.html">FOUR</a></strong>
 		</div>
 
 <h1>MEMES:</h1>
@@ -115,7 +169,7 @@ span{
 <p>	scroll through the best of the best --></p>
 
 <div class="title1">
-	<h1>DOGE</h1>
+	<span class="rollover doge"><h1>DOGE</h1></span>
 </div>
 
 <div class="title2">
@@ -133,6 +187,10 @@ span{
 <div class="title5">
 	<h1>DOGE</h1>
 </div>
+
+
+<img class="rotate doge__image"src="assets/images/doge.jpg" alt="">
+
 
 
 	</body>
