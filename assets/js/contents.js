@@ -19,5 +19,12 @@ $('.success').mouseleave(function() {
   $('.success__image').removeClass('showme');
 });
 
+$('.arthur').mouseenter(function() {
+  $('.arthur__image').addClass('showme');
+});
+
+$('.arthur').mouseleave(function() {
+  $('.arthur__image').removeClass('showme');
+});
 
   });
