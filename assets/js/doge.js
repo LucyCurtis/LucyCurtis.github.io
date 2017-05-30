@@ -27,6 +27,30 @@ $('.most').mouseleave(function() {
   $('.most__image').removeClass('showme');
 });
 
+$('.wow').mouseenter(function() {
+  $('.wow__image').addClass('showme');
+});
+
+$('.wow').mouseleave(function() {
+  $('.wow__image').removeClass('showme');
+});
+
+$('.such').mouseenter(function() {
+  $('.such__image').addClass('showme');
+});
+
+$('.such').mouseleave(function() {
+  $('.such__image').removeClass('showme');
+});
+
+$('.shiba').mouseenter(function() {
+  $('.shiba__image').addClass('showme');
+});
+
+$('.shiba').mouseleave(function() {
+  $('.shiba__image').removeClass('showme');
+});
+
 
 
   });
