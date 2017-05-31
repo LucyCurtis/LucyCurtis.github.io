@@ -27,4 +27,16 @@ $('.arthur').mouseleave(function() {
   $('.arthur__image').removeClass('showme');
 });
 
+
+$('.thumbnailarthur').mouseenter(function() {
+          $('.arthur').addClass('showme');
+        });
+
+$('.thumbnailsuccesskid').mouseenter(function() {
+          $('.successkid').addClass('showme');
+        });
+
+$('.thumbnaildoge').mouseenter(function() {
+          $('.doge').addClass('showme');
+        });
   });

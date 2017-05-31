@@ -37,49 +37,10 @@
       text-decoration: line-through;
     }
 
-  /*    .rollover{
-      color:red;
+    .nav a:active{
+      text-decoration: line-through;
+      color: aqua;
     }
-
-    .col {
-  width: 50%;
-  height:100vh;
-  position:fixed;
-  }
-
-  .left {
-  left:0;
-  top:15vh;
-  overflow: scroll;
-  color: hotpink;
-
-  }
-
-  .right {
-  left:50%;
-  top:15vh;
-
-  }
-
-  .content {
-  padding: 30px;
-  width: 520px;
-  font-family: arial;
-  font-size: 30px;
-  margin-left: 50px;
-  }
-
-  .header {
-  font-size: 30px;
-
-  text-align: center;
-  }
-
-  a{
-  text-decoration: none;
-  color: blue;
-
-  }*/
 
   .rollover{
   color: aqua;
@@ -134,14 +95,9 @@
 
   .japanese__image{
   top:50px;
-  left:740px;
+  left:600px;
   width: 670px;
   height:500px;
-  }
-
-  .doge__image{
-  top:150px;
-  left:700px;
   }
 
   .wow__image{
@@ -150,12 +106,28 @@
   }
 
   .such__image{
-  top:150px;
-  left:700px;
+  top:10px;
+  left:70px;
   }
   .shiba__image{
-  top:150px;
-  left:700px;
+  top:250px;
+  left:500px;
+  }
+
+  .thumbnaildoge{
+    display: inline-block;
+    width: 60px;
+    padding: 0px;
+    position: absolute;
+    transition: 1s;
+
+  }
+
+  .thumbnaildoge:hover {
+      width:600px;
+      transition: 1s ease-in-out;
+      margin: auto;
+      position: absolute;
   }
 
   .flash {
@@ -201,7 +173,7 @@ blockquote{
     <br>
 
 
-    <span class="rollover doge"><p>WOW SUCH DOGE</p></span>
+    <img src="assets/images/doge.jpg" class="thumbnaildoge">
 
     <br>
     <br>
@@ -233,11 +205,10 @@ But the dog that most often represents the doge meme nearly died a few years ago
 </div>
 
 
-<img class="rotate doge__image"src="assets/images/doge.jpg" alt="">
 <img class="rotate wow__image"src="assets/images/wow.jpg" alt="">
 <img class="rotate such__image"src="assets/images/such.jpg" alt="">
 <img class="rotate shiba__image"src="assets/images/shiba.jpg" alt="">
-<img class="rotate japanese__image"src="assets/images/japan_meme.jpg" alt="">
+<img class="rotate japanese__image"src="assets/images/japan_meme.png" alt="">
 <img class="rotate most__image"src="assets/images/dinoshark.jpg" alt="">
 
 

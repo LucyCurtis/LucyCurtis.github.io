@@ -27,5 +27,16 @@ $('.frasier').mouseleave(function() {
   $('.frasier__image').removeClass('showme');
 });
 
+$('.thumbnailarthur').mouseenter(function() {
+          $('.arthur').addClass('showme');
+        });
+
+$('.thumbnailunderwear').mouseenter(function() {
+          $('.underwear').addClass('showme');
+        });
+
+$('.thumbnailtwins').mouseenter(function() {
+          $('.twins').addClass('showme');
+        });
 
   });

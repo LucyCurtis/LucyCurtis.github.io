@@ -39,6 +39,11 @@
       text-decoration: line-through;
     }
 
+    .nav a:active{
+      text-decoration: line-through;
+      color: aqua;
+    }
+
 
 
 .rollover{
@@ -71,6 +76,16 @@
   transition: all 2s;
 }
 
+a{
+  text-decoration: none;
+  color: aqua;
+}
+
+a:hover{
+  text-decoration: line-through;
+  color: aqua;
+}
+
 .rotate{
   position:fixed;
   visibility: hidden;
@@ -92,7 +107,7 @@
 
 .twitter__image{
   top:50px;
-  left:40px;
+  left:110px;
 
 }
 
@@ -104,8 +119,53 @@
 .images{
   margin-left: 170px;
 }
+.thumbnailarthur{
+  display: inline-block;
+  width: 20px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
 
+}
 
+.thumbnailarthur:hover {
+    width:200px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailunderwear{
+  display: inline-block;
+  width: 40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+
+}
+
+.thumbnailunderwear:hover {
+    width:400px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
+
+.thumbnailtwins{
+  display: inline-block;
+  width: 40px;
+  padding: 0px;
+  position: absolute;
+  transition: 1s;
+
+}
+
+.thumbnailtwins:hover {
+    width:400px;
+    transition: 1s ease-in-out;
+    margin: auto;
+    position: absolute;
+}
 
 .flash {
    animation-name: flash;
@@ -162,7 +222,7 @@
 
     <strong><p>I was one of those kids who didn’t have cable.</p></strong>
 
-    <p>For this reason, my moral compass and world view were shaped by maybe seven channels of public TV. This included the morning news; the sitcom Frasier; and most-influentially PBS's <span class="rollover arthur">Arthur</span>, a children's program that, no matter the time of day, would be discovered airing halfway through an episode. The show's pervasiveness no doubt left an impression on kids of the '90s who, like me, got their diet of wholesome life lessons and appreciation of family from a precocious aardvark with on-trend eyewear.
+    <p>For this reason, my moral compass and world view were shaped by maybe seven channels of public TV. This included the morning news; the sitcom Frasier; and most-influentially PBS's <a href="https://www.youtube.com/watch?v=7zkX6kfnWbk" target="_blank">Arthur,</a>&nbsp;<img src="assets/images/arthur.png" class="thumbnailarthur">&nbsp; &nbsp;a children's program that, no matter the time of day, would be discovered airing halfway through an episode. The show's pervasiveness no doubt left an impression on kids of the '90s who, like me, got their diet of wholesome life lessons and appreciation of family from a precocious aardvark with on-trend eyewear.
 
       <br>
       <br>
@@ -191,7 +251,7 @@ And the internet just took it and ran:
 <br>
 <div class="col left">
   <div class="content">
-The fist originated from one of the darkest episodes of Arthur, in which the young bespectacled aardvark punches his sister DW for breaking his toy airplane. The clip was the kernel of a separate meme for six years before inspiring the Arthur fist. Fun fact: the episode was given a rare TV-Y7 rating for cartoon violence! The only other Arthur episodes with the TV-Y7 rating are "Arthur's Underwear" and "Attack of the Turbo Tibble Twins," which based on the title alone, I am bumping to the top of my to-watch list.
+The fist originated from one of the darkest episodes of Arthur, in which the young bespectacled aardvark punches his sister DW for breaking his toy airplane. The clip was the kernel of a separate meme for six years before inspiring the Arthur fist. Fun fact: the episode was given a rare TV-Y7 rating for cartoon violence! The only other Arthur episodes with the TV-Y7 rating are "Arthur's Underwear"&nbsp;<img src="assets/images/underwear.png" class="thumbnailunderwear">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;and "Attack of the Turbo Tibble Twins,"<img src="assets/images/twins.jpg" class="thumbnailtwins"> which based on the title alone, I am bumping to the top of my to-watch list.
 
 <br>
 <br>
@@ -223,7 +283,6 @@ The Arthur fist meme is now a full four days old, which means we as an internet 
 
 </div>>-->
 
-<img class="rotate arthur__image"src="assets/images/arthur.png" alt="">
 <img class="blur twitter__image"src="assets/images/cast.png" alt="">
 <img class="rotate frasier__image"src="assets/images/frasier.jpg" alt="">
 

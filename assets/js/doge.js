@@ -3,13 +3,7 @@ $(document).ready(function() {
 
 // Add jQuery here
 
-$('.doge').mouseenter(function() {
-  $('.doge__image').addClass('showme');
-});
 
-$('.doge').mouseleave(function() {
-  $('.doge__image').removeClass('showme');
-});
 
 $('.japanese').mouseenter(function() {
   $('.japanese__image').addClass('showme');
@@ -51,6 +45,9 @@ $('.shiba').mouseleave(function() {
   $('.shiba__image').removeClass('showme');
 });
 
+$('.thumbnaildoge').mouseenter(function() {
+          $('.doge').addClass('showme');
+        });
 
 
   });
