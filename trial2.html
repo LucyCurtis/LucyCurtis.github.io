@@ -15,9 +15,13 @@
 
     h1{
       font-family: arial;
-      color:aqua;
       font-size: 100px;
-      margin-top: ;
+      margin-left: 350px
+    }
+
+    h4{
+      font-family: arial;
+      margin-top: -40px;
       margin-left: 350px
     }
 
@@ -39,49 +43,7 @@
       text-decoration: line-through;
     }
 
-/*    .rollover{
-      color:red;
-    }
 
-    .col {
-  width: 50%;
-  height:100vh;
-  position:fixed;
-}
-
-.left {
-  left:0;
-  top:15vh;
-  overflow: scroll;
-  color: hotpink;
-
-}
-
-.right {
-  left:50%;
-  top:15vh;
-
-}
-
-.content {
-  padding: 30px;
-  width: 520px;
-  font-family: arial;
-  font-size: 30px;
-  margin-left: 50px;
-}
-
-.header {
-  font-size: 30px;
-
-  text-align: center;
-}
-
-a{
-  text-decoration: none;
-  color: blue;
-
-}*/
 
 .rollover{
   color: aqua;
@@ -165,20 +127,60 @@ a{
     to {color: aqua;}
 }
 
+.backbutton{
+  position: fixed;
+  text-decoration: none;
+  color: hotpink;
+  left: 2%;
+  margin-top: 280px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotate(-90deg);
+  letter-spacing: 3px;
+}
 
+.nextbutton{
+  position: fixed;
+  text-decoration: none;
+  color: hotpink;
+  right: 4%;
+  margin-top: 280px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotate(90deg);
+  letter-spacing: 3px;
+}
+
+.nextbutton:hover{
+  color: aqua;
+  text-decoration: overline;
+}
+
+.backbutton:hover{
+  color: aqua;
+  text-decoration: overline;
+}
 
     </style>
   </head>
   <body>
 
+
+
     <div class="nav">
 			<strong><a href="contents.html">HOME</a>&nbsp;&nbsp;<a href="trial2.html">ONE</a> &nbsp;&nbsp; <a href="doge.html">TWO</a> &nbsp;&nbsp; <a href="success.html">THREE</a> &nbsp;&nbsp; <a href="arthur.html">FOUR</a></strong>
 		</div>
 
-<strong><h1 class="flash">U MAD BRO?</h1></strong>
+    <a href="contents.html" class="backbutton">back</a>
+    <a href="doge.html" class="nextbutton">next</a>
 
 
+<strong><h1 class="flash">U MAD BRO?</h1><h4 class="flash">Wyatt Niehaus</h4></strong>
 
+<br>
+<br>
 
 <div class="col left">
   <div class="content">
