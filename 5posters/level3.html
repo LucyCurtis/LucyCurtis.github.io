@@ -4,10 +4,35 @@
     <meta charset="utf-8">
     <title>Level 2</title>
 
+<script type="text/javascript">
+
+setTimeout(function () {
+  $('.letter g').addClass('addred');
+}, 1000);
+
+setTimeout(function () {
+  $('.letter g').removeClass('addred');
+  $('.letter g').addClass('moveleft');
+}, 3000);
+
+
+</script>
 
 
     <style media="screen">
 
+
+    .letter g {
+
+    }
+
+    .addred {
+      color:red;
+    }
+
+    .moveleft {
+      margin-left:100px;
+    }
 
 .g{
   color: red;
@@ -15,6 +40,7 @@
   font-family: arial;
   margin-top: -300px;
   margin-left: 500px;
+  transition: all 0.5s;
 }
 
 .c{
@@ -58,38 +84,45 @@
   <body>
 
 
-<div class="letter g">
-  <p><strong>g</strong></p>
+
 
 </div>
 
+<div class="header">
+
+  <div class="letter g">
+    <p><strong>g</strong></p>
+
+  </div>
+
+  <div class="letter c">
+    <p><strong>c</strong></p>
+
+  </div>
+  <div class="di">
+    <p><strong>RAVISTA DI ESTEICA E DI TECNICA</strong></p>
+
+  </div>
+
+  </div>
+  <div class="gra">
+    <p><strong>GRAFICA</strong></p>
+
+  </div>
+
+  <div class="campo">
+    <p><strong>CAMPO GRAFICO</strong></p>
+
+  </div>
+
+  <div class="little">
+    <p><strong>I DONT KNOW WHAT THIS LITTLE TEXT SAYS SO I'M GOING TO MAKE IT UP</strong></p>
+
+  </div>
+
 </div>
 
 
-<div class="letter c">
-  <p><strong>c</strong></p>
-
-</div>
-<div class="di">
-  <p><strong>RAVISTA DI ESTEICA E DI TECNICA</strong></p>
-
-</div>
-
-</div>
-<div class="gra">
-  <p><strong>GRAFICA</strong></p>
-
-</div>
-
-<div class="campo">
-  <p><strong>CAMPO GRAFICO</strong></p>
-
-</div>
-
-<div class="little">
-  <p><strong>I DONT KNOW WHAT THIS LITTLE TEXT SAYS SO I'M GOING TO MAKE IT UP</strong></p>
-
-</div>
 
   </body>
 </html>
