@@ -42,11 +42,50 @@ body{
   z-index: 10;
 }
 
+.backbutton{
+  position: fixed;
+  text-decoration: none;
+  color: hotpink;
+  left: 2%;
+  margin-top: 280px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotate(-90deg);
+  letter-spacing: 3px;
+}
+
+.nextbutton{
+  position: fixed;
+  text-decoration: none;
+  color: hotpink;
+  right: 4%;
+  margin-top: 280px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotate(90deg);
+  letter-spacing: 3px;
+}
+
+.nextbutton:hover{
+  color: aqua;
+  text-decoration: overline;
+}
+
+.backbutton:hover{
+  color: aqua;
+  text-decoration: overline;
+}
+
 
 
     </style>
   </head>
   <body>
+
+    <a href="level3.html" class="backbutton">back</a>
+    <a href="index.html" class="nextbutton">next</a>
 
     <center>
 
