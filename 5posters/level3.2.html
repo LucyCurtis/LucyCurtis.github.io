@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="jquery.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+
+// Add jQuery here
+
+$('div').hide();
+
+   setTimeout(function(){
+   $('div.d').fadeIn('slow');},100);
+
+   setTimeout(function(){
+   $('div.e').fadeIn('slow');},400);
+
+   setTimeout(function(){
+   $('div.s').fadeIn('slow');},600);
+
+   setTimeout(function(){
+   $('div.i').fadeIn('slow');},800);
+
+   setTimeout(function(){
+   $('div.g').fadeIn('slow');},1000);
+
+   setTimeout(function(){
+   $('div.n').fadeIn('slow');},1200);
+
+   setTimeout(function () {
+         $('div').addClass('addred');}, 1400);
+
+
+  });
+
+</script>
+    <style media="screen">
+    body{
+background-color: black;
+}
+
+div{
+font-size: 300px;
+font-family: arial;
+color: red;
+display: inline-block;
+margin-top: -50px;
+letter-spacing: -30px;
+}
+
+.addred{
+transition: all 5s;
+color: white;
+
+}
+
+    </style>
+  </head>
+
+  <body>
+<center>
+  <strong>
+    <div class="d">D</div>
+        <div class="e">e</div>
+       <div class="s">s</div>
+        <div class="i">i</div>
+         <div class="g">g</div>
+         <div class="n">n</div>
+
+  </strong>
+
+
+
+</center>
+  </body>
+</html>
