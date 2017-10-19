@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+  background-color: #febbd2;
+}
+
+h1{
+  font-family: courier;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+
+}
+
+
+.time {
+  font-family: courier;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.image_swap {
+  margin: auto;
+  width:600px;
+}
+
+.image_swap img{
+max-width: 100%;
+
+}
+
+.img_swap .message{
+  text-align:center;
+  font-size: 50px;
+}
