@@ -28,23 +28,15 @@ $(document).ready(function() {
     }
 
     function checkHalfSecond(momentSecond){
-      if(momentSecond < 30) {halfSecond = 'halfS';}
-      else {halfSecond = 'fullS';}
+      if(momentSecond < 30) {halfSecond = 'halfM';}
+      else {halfSecond = 'fullM';}
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 5) {halfMinute = 'time5';}
-      else if(momentMinute < 10){halfMinute = 'time10';}
-      else if(momentMinute < 15){halfMinute = 'time15';}
-      else if(momentMinute < 20){halfMinute = 'time20';}
-      else if(momentMinute < 25){halfMinute = 'time25';}
-      else if(momentMinute < 30){halfMinute = 'time30';}
-      else if(momentMinute < 30){halfMinute = 'time35';}
-      else if(momentMinute < 30){halfMinute = 'time40';}
-      else if(momentMinute < 30){halfMinute = 'time45';}
-      else if(momentMinute < 30){halfMinute = 'time50';}
-      else if(momentMinute < 55){halfMinute = 'time55';}
-      else {halfMinute = 'time60';}
+      if(momentMinute < 15) {halfMinute = 'quarterH';}
+      else if(momentMinute < 30){halfMinute = 'halfH';}
+      else if(momentMinute < 45){halfMinute = 'threequarterH';}
+      else {halfMinute = 'fullH';}
     }
 
     // Check if odd, even, quaterpast
@@ -60,7 +52,7 @@ $(document).ready(function() {
     $('body').attr('class', timeClass);
 
     // Add format
-    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss A'));
+    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss:SS A'));
   };
 
   var intervalId = setInterval(update, 100);

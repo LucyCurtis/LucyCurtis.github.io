@@ -2,60 +2,157 @@
 For example, every evenSecond change the div color to blue.
 Every oddSecond change the div color to red
 
-body.evenS .time {
-  color:blue;
-}
 
-body.oddS .time {
-  color:red;
-}
+/*hide all images by default*/
 
-Target multiple together. Every evenSecond only in the evening, display an image.
-
-body.evenS.pm .sunset {
-  display:block;
-}
-
-*/
-
-
-/* Time CSS here */
-
-/*body.evenS {
-  background-color: black
-}
-
-body.oddS {
-  background-color: white;
-}
-
-
-body.evenS .time, body.evenS .message{
-color: white;
-}
-
-
-body.oddS .time, body.oddS .message{
-  color:black;
-} */
-
-body.evenM .image_swap .spring2, .image_swap .morning{
+.season img {
   display: none;
 }
 
-body.oddM .image_swap .spring2, .image_swap .morning{
+/*each minute find the right image and show*/
+
+
+
+body.time5 .image5{
   display: block;
+  width: 40%;
 }
 
-body.evenM .image_swap .spring1,  .image_swap .afternoon{
+body.time10 .image10{
   display: block;
+  width: 40%;
 }
 
-body.oddM .image_swap .spring1, .image_swap .afternoon{
+body.time15 .image15{
+  display: block;
+  width: 40%;
+}
+
+body.time20 .image20{
+  display: block;
+  width: 40%;
+}
+
+body.time25 .image25{
+  display: block;
+  width: 40%;
+}
+
+body.time30 .image30{
+  display: block;
+  width: 40%;
+}
+
+body.time35 .image35{
+  display: block;
+  width: 40%;
+}
+
+body.time40 .image40{
+  display: block;
+  width: 40%;
+}
+
+body.time45 .image45{
+  display: block;
+  width: 40%;
+}
+
+body.time50 .image50{
+  display: block;
+  width: 40%;
+}
+
+body.time55 .image55{
+  display: block;
+  width: 40%;
+}
+
+
+
+/*hide all seasons by default*/
+
+
+.season {
   display: none;
 }
 
-/*body.halfS .time {
-font-size: 50px;
+/*show correct season*/
 
-} */
+body.september .spring, body.october .spring, body.november .spring{
+  display: block;
+
+}
+
+body.december .summer, body.january .summer, body.february .summer{
+  display: block;
+
+}
+
+body.march .autumn, body.april .autumn, body.may .autumn{
+  display: block;
+
+}
+
+body.june .winter, body.july .winter, body.august .winter{
+  display: block;
+
+}
+
+/*hide all titles by default*/
+
+.spring_title {
+  display: none;
+}
+
+.summer_title {
+  display: none;
+}
+
+.autumn_title {
+  display: none;
+}
+
+.winter_title {
+  display: none;
+}
+
+/*show correct season title*/
+
+body.september .spring_title, body.october .spring_title, body.november .spring_title{
+  display: block;
+}
+
+body.december .summer_title, body.january .summer_title, body.february .summer_title{
+  display: block;
+
+}
+
+body.march .autumn_title, body.april .autumn_title, body.may .autumn_title{
+  display: block;
+
+}
+
+body.june .winter_title, body.july .winter_title, body.august .winter_title{
+  display: block;
+
+}
+
+
+/*Apply background color to correct seasons*/
+
+body.september, body.october, body.november {
+  background-color: #febbd2;
+}
+
+body.december, body.january, body.february {
+  background-color: #ffe766;
+}
+
+body.march, body.april, body.may {
+  background-color: #ff7b00;
+}
+
+body.june, body.july, body.august {
+  background-color: #addfff;
+}

@@ -5,9 +5,7 @@
 
 /* Start here */
 
-body {
-  background-color: #febbd2;
-}
+
 
 h1{
   font-family: courier;
@@ -17,6 +15,10 @@ h1{
 
 }
 
+img{
+  margin: auto;
+  
+}
 
 .time {
   font-family: courier;
